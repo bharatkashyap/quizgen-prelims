@@ -24,7 +24,7 @@ mv Downloads/prelims /Applications/MAMP/htdocs/
 
 * Fire Apache & MySQL and navigate to *phpMyAdmin* - navigation instructions to this usually come bundled with the platform itself, so this should be easy to find
 
-* Once there, create a database named **Database** and use the Import option to load into it the **database.sql** file located in the directory you moved to *htdocs*, i.e. *prelims*
+* Once there, create a database named **database** and use the Import option to load into it the **database.sql** file located in the directory you moved to *htdocs*, i.e. *prelims*
 
 * That should be it for the setup. Based on your operating system and AMP platform, visit one of :
 
