@@ -1,0 +1,845 @@
+[27-Oct-2015 21:18:06 UTC] PHP Parse error:  syntax error, unexpected ')', expecting ']' in /home/ubuntu/workspace/JQ/quiz.php on line 4
+[27-Oct-2015 21:18:39 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/JQ/quiz.php on line 4
+[27-Oct-2015 21:19:34 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/ubuntu/workspace/JQ/quiz.php on line 11
+[27-Oct-2015 21:19:34 UTC] PHP Stack trace:
+[27-Oct-2015 21:19:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[27-Oct-2015 21:29:23 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/JQ/quiz.php on line 12
+[27-Oct-2015 21:44:00 UTC] PHP Parse error:  syntax error, unexpected ';' in /home/ubuntu/workspace/JQ/quiz.php on line 13
+[27-Oct-2015 22:09:42 UTC] PHP Warning:  mysql_num_fields() expects parameter 1 to be resource, object given in /home/ubuntu/workspace/JQ/view.php on line 8
+[27-Oct-2015 22:09:42 UTC] PHP Stack trace:
+[27-Oct-2015 22:09:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[27-Oct-2015 22:09:42 UTC] PHP   2. displayAns() /home/ubuntu/workspace/JQ/view.php:23
+[27-Oct-2015 22:09:42 UTC] PHP   3. mysql_num_fields() /home/ubuntu/workspace/JQ/view.php:8
+[28-Oct-2015 12:14:49 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/JQ/submit.php on line 15
+[28-Oct-2015 12:14:49 UTC] PHP Stack trace:
+[28-Oct-2015 12:14:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/submit.php:0
+[28-Oct-2015 13:23:16 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 16
+[28-Oct-2015 13:23:16 UTC] PHP Stack trace:
+[28-Oct-2015 13:23:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:23:56 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/JQ/quiz.php on line 17
+[28-Oct-2015 13:23:56 UTC] PHP Stack trace:
+[28-Oct-2015 13:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:23:56 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/JQ/quiz.php:17
+[28-Oct-2015 13:23:56 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/JQ/quiz.php on line 19
+[28-Oct-2015 13:23:56 UTC] PHP Stack trace:
+[28-Oct-2015 13:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:23:56 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 23
+[28-Oct-2015 13:23:56 UTC] PHP Stack trace:
+[28-Oct-2015 13:23:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:25:27 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 22
+[28-Oct-2015 13:25:27 UTC] PHP Stack trace:
+[28-Oct-2015 13:25:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:27:23 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 20
+[28-Oct-2015 13:27:23 UTC] PHP Stack trace:
+[28-Oct-2015 13:27:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:30:34 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 24
+[28-Oct-2015 13:30:34 UTC] PHP Stack trace:
+[28-Oct-2015 13:30:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:39:31 UTC] PHP Warning:  main(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/JQ/quiz.php on line 20
+[28-Oct-2015 13:39:31 UTC] PHP Stack trace:
+[28-Oct-2015 13:39:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:39:31 UTC] PHP Warning:  mysqli_stmt::bind_result(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/JQ/quiz.php on line 21
+[28-Oct-2015 13:39:31 UTC] PHP Stack trace:
+[28-Oct-2015 13:39:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:39:31 UTC] PHP   2. mysqli_stmt->bind_result() /home/ubuntu/workspace/JQ/quiz.php:21
+[28-Oct-2015 13:42:16 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/JQ/quiz.php on line 20
+[28-Oct-2015 13:42:16 UTC] PHP Stack trace:
+[28-Oct-2015 13:42:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:42:16 UTC] PHP   2. mysqli_stmt->bind_result() /home/ubuntu/workspace/JQ/quiz.php:20
+[28-Oct-2015 13:43:30 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/JQ/quiz.php on line 21
+[28-Oct-2015 13:43:30 UTC] PHP Stack trace:
+[28-Oct-2015 13:43:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:43:30 UTC] PHP   2. mysqli_stmt->bind_result() /home/ubuntu/workspace/JQ/quiz.php:21
+[28-Oct-2015 13:44:55 UTC] PHP Warning:  mysqli_stmt::bind_result(): Number of bind variables doesn't match number of fields in prepared statement in /home/ubuntu/workspace/JQ/quiz.php on line 20
+[28-Oct-2015 13:44:55 UTC] PHP Stack trace:
+[28-Oct-2015 13:44:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 13:44:55 UTC] PHP   2. mysqli_stmt->bind_result() /home/ubuntu/workspace/JQ/quiz.php:20
+[28-Oct-2015 14:01:48 UTC] PHP Warning:  mysqli_stmt::close(): Couldn't fetch mysqli_stmt in /home/ubuntu/workspace/JQ/quiz.php on line 24
+[28-Oct-2015 14:01:48 UTC] PHP Stack trace:
+[28-Oct-2015 14:01:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:01:48 UTC] PHP   2. mysqli_stmt->close() /home/ubuntu/workspace/JQ/quiz.php:24
+[28-Oct-2015 14:01:48 UTC] PHP Fatal error:  Call to a member function fetch_row() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 43
+[28-Oct-2015 14:01:48 UTC] PHP Stack trace:
+[28-Oct-2015 14:01:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:07:01 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of elements in type definition string doesn't match number of bind variables in /home/ubuntu/workspace/JQ/quiz.php on line 35
+[28-Oct-2015 14:07:01 UTC] PHP Stack trace:
+[28-Oct-2015 14:07:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:07:01 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/JQ/quiz.php:35
+[28-Oct-2015 14:07:32 UTC] PHP Warning:  mysqli_stmt::bind_param(): Number of variables doesn't match number of parameters in prepared statement in /home/ubuntu/workspace/JQ/quiz.php on line 35
+[28-Oct-2015 14:07:32 UTC] PHP Stack trace:
+[28-Oct-2015 14:07:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:07:32 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/JQ/quiz.php:35
+[28-Oct-2015 14:08:11 UTC] PHP Fatal error:  Cannot pass parameter 1 by reference in /home/ubuntu/workspace/JQ/quiz.php on line 35
+[28-Oct-2015 14:08:11 UTC] PHP Stack trace:
+[28-Oct-2015 14:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:32:20 UTC] PHP Fatal error:  Call to a member function fetch() on a non-object in /home/ubuntu/workspace/JQ/quiz.php on line 29
+[28-Oct-2015 14:32:20 UTC] PHP Stack trace:
+[28-Oct-2015 14:32:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/quiz.php:0
+[28-Oct-2015 14:46:28 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/JQ/view.php on line 13
+[28-Oct-2015 14:46:28 UTC] PHP Stack trace:
+[28-Oct-2015 14:46:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[28-Oct-2015 14:46:28 UTC] PHP   2. displayAnswers() /home/ubuntu/workspace/JQ/view.php:40
+[28-Oct-2015 14:47:18 UTC] PHP Warning:  mysqli_fetch_row() expects parameter 1 to be mysqli_result, null given in /home/ubuntu/workspace/JQ/view.php on line 14
+[28-Oct-2015 14:47:18 UTC] PHP Stack trace:
+[28-Oct-2015 14:47:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[28-Oct-2015 14:47:18 UTC] PHP   2. displayAnswers() /home/ubuntu/workspace/JQ/view.php:40
+[28-Oct-2015 14:47:18 UTC] PHP   3. mysqli_fetch_row() /home/ubuntu/workspace/JQ/view.php:14
+[28-Oct-2015 14:48:37 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/JQ/view.php on line 13
+[28-Oct-2015 14:48:37 UTC] PHP Stack trace:
+[28-Oct-2015 14:48:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[28-Oct-2015 14:48:37 UTC] PHP   2. displayAnswers() /home/ubuntu/workspace/JQ/view.php:40
+[28-Oct-2015 15:08:10 UTC] PHP Parse error:  syntax error, unexpected '*' in /home/ubuntu/workspace/JQ/view.php on line 29
+[28-Oct-2015 15:08:22 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/JQ/view.php on line 33
+[28-Oct-2015 15:09:05 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/JQ/view.php on line 51
+[28-Oct-2015 15:12:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/JQ/view.php on line 51
+[28-Oct-2015 15:15:44 UTC] PHP Parse error:  syntax error, unexpected '"</td>\n"' (T_CONSTANT_ENCAPSED_STRING) in /home/ubuntu/workspace/JQ/view.php on line 32
+[28-Oct-2015 17:10:48 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/JQ/index.php on line 25
+[28-Oct-2015 17:10:48 UTC] PHP Stack trace:
+[28-Oct-2015 17:10:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/index.php:0
+[28-Oct-2015 17:10:48 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/JQ/index.php on line 25
+[28-Oct-2015 17:10:48 UTC] PHP Stack trace:
+[28-Oct-2015 17:10:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/index.php:0
+[28-Oct-2015 17:19:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/JQ/quiz.php on line 3
+[28-Oct-2015 17:35:14 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/JQ/submit.php on line 5
+[28-Oct-2015 17:40:38 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/JQ/quiz.php on line 4
+[29-Oct-2015 08:02:53 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/view.php on line 14
+[29-Oct-2015 08:02:53 UTC] PHP Stack trace:
+[29-Oct-2015 08:02:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 08:03:59 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/view.php on line 14
+[29-Oct-2015 08:03:59 UTC] PHP Stack trace:
+[29-Oct-2015 08:03:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 08:05:55 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/view.php on line 15
+[29-Oct-2015 08:05:55 UTC] PHP Stack trace:
+[29-Oct-2015 08:05:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 08:24:38 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 14
+[29-Oct-2015 08:24:38 UTC] PHP Stack trace:
+[29-Oct-2015 08:24:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:28:24 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 15
+[29-Oct-2015 08:28:24 UTC] PHP Stack trace:
+[29-Oct-2015 08:28:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:30:16 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:30:16 UTC] PHP Stack trace:
+[29-Oct-2015 08:30:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:35:46 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:35:46 UTC] PHP Stack trace:
+[29-Oct-2015 08:35:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:35:48 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:35:48 UTC] PHP Stack trace:
+[29-Oct-2015 08:35:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:36:07 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:36:07 UTC] PHP Stack trace:
+[29-Oct-2015 08:36:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:36:51 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:36:51 UTC] PHP Stack trace:
+[29-Oct-2015 08:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:37:35 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:37:35 UTC] PHP Stack trace:
+[29-Oct-2015 08:37:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:38:38 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:38:38 UTC] PHP Stack trace:
+[29-Oct-2015 08:38:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:39:15 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 16
+[29-Oct-2015 08:39:15 UTC] PHP Stack trace:
+[29-Oct-2015 08:39:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 08:39:28 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/submit.php on line 15
+[29-Oct-2015 08:39:28 UTC] PHP Stack trace:
+[29-Oct-2015 08:39:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/submit.php:0
+[29-Oct-2015 10:13:15 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/SQ/view.php on line 41
+[29-Oct-2015 10:46:48 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/SQ/view.php on line 32
+[29-Oct-2015 10:52:01 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/view.php on line 35
+[29-Oct-2015 10:52:01 UTC] PHP Stack trace:
+[29-Oct-2015 10:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 10:52:01 UTC] PHP   2. key() /home/ubuntu/workspace/SQ/view.php:35
+[29-Oct-2015 10:52:01 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/view.php on line 35
+[29-Oct-2015 10:52:01 UTC] PHP Stack trace:
+[29-Oct-2015 10:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 10:52:01 UTC] PHP   2. key() /home/ubuntu/workspace/SQ/view.php:35
+[29-Oct-2015 10:52:01 UTC] PHP Warning:  key() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/view.php on line 35
+[29-Oct-2015 10:52:01 UTC] PHP Stack trace:
+[29-Oct-2015 10:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 10:52:01 UTC] PHP   2. key() /home/ubuntu/workspace/SQ/view.php:35
+[29-Oct-2015 10:52:01 UTC] PHP Warning:  key() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/SQ/view.php on line 35
+[29-Oct-2015 10:52:01 UTC] PHP Stack trace:
+[29-Oct-2015 10:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 10:52:01 UTC] PHP   2. key() /home/ubuntu/workspace/SQ/view.php:35
+[29-Oct-2015 10:52:01 UTC] PHP Warning:  key() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/SQ/view.php on line 35
+[29-Oct-2015 10:52:01 UTC] PHP Stack trace:
+[29-Oct-2015 10:52:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[29-Oct-2015 10:52:01 UTC] PHP   2. key() /home/ubuntu/workspace/SQ/view.php:35
+[29-Oct-2015 11:27:11 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/ubuntu/workspace/SQ/score.php on line 17
+[29-Oct-2015 11:27:27 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 13
+[29-Oct-2015 11:27:27 UTC] PHP Stack trace:
+[29-Oct-2015 11:27:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:30:00 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 14
+[29-Oct-2015 11:30:00 UTC] PHP Stack trace:
+[29-Oct-2015 11:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:30:03 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 14
+[29-Oct-2015 11:30:03 UTC] PHP Stack trace:
+[29-Oct-2015 11:30:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:30:28 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 13
+[29-Oct-2015 11:30:28 UTC] PHP Stack trace:
+[29-Oct-2015 11:30:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:31:43 UTC] PHP Warning:  include(../database.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/SQ/score.php on line 3
+[29-Oct-2015 11:31:43 UTC] PHP Stack trace:
+[29-Oct-2015 11:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:31:43 UTC] PHP Warning:  include(): Failed opening '../database.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/SQ/score.php on line 3
+[29-Oct-2015 11:31:43 UTC] PHP Stack trace:
+[29-Oct-2015 11:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:31:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 14
+[29-Oct-2015 11:31:43 UTC] PHP Stack trace:
+[29-Oct-2015 11:31:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:32:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 19
+[29-Oct-2015 11:32:02 UTC] PHP Stack trace:
+[29-Oct-2015 11:32:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:33:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:33:46 UTC] PHP Stack trace:
+[29-Oct-2015 11:33:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:33:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:33:56 UTC] PHP Stack trace:
+[29-Oct-2015 11:33:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:34:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:34:27 UTC] PHP Stack trace:
+[29-Oct-2015 11:34:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:35:20 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 19
+[29-Oct-2015 11:35:20 UTC] PHP Stack trace:
+[29-Oct-2015 11:35:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:35:49 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 19
+[29-Oct-2015 11:35:49 UTC] PHP Stack trace:
+[29-Oct-2015 11:35:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:36:06 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 19
+[29-Oct-2015 11:36:06 UTC] PHP Stack trace:
+[29-Oct-2015 11:36:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:43:28 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:43:28 UTC] PHP Stack trace:
+[29-Oct-2015 11:43:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:45:15 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:45:15 UTC] PHP Stack trace:
+[29-Oct-2015 11:45:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:49:19 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:49:19 UTC] PHP Stack trace:
+[29-Oct-2015 11:49:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:52:50 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 21
+[29-Oct-2015 11:52:50 UTC] PHP Stack trace:
+[29-Oct-2015 11:52:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:53:01 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 22
+[29-Oct-2015 11:53:01 UTC] PHP Stack trace:
+[29-Oct-2015 11:53:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:53:16 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 22
+[29-Oct-2015 11:53:16 UTC] PHP Stack trace:
+[29-Oct-2015 11:53:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 11:54:02 UTC] PHP Parse error:  syntax error, unexpected 'key' (T_STRING) in /home/ubuntu/workspace/SQ/score.php on line 24
+[29-Oct-2015 11:56:39 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/SQ/score.php on line 15
+[29-Oct-2015 11:56:47 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 16
+[29-Oct-2015 11:56:47 UTC] PHP Stack trace:
+[29-Oct-2015 11:56:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:17:41 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 22
+[29-Oct-2015 12:17:41 UTC] PHP Stack trace:
+[29-Oct-2015 12:17:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:18:53 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 22
+[29-Oct-2015 12:18:53 UTC] PHP Stack trace:
+[29-Oct-2015 12:18:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:21:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 28
+[29-Oct-2015 12:21:24 UTC] PHP Stack trace:
+[29-Oct-2015 12:21:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:21:57 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 22
+[29-Oct-2015 12:21:57 UTC] PHP Stack trace:
+[29-Oct-2015 12:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:22:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 27
+[29-Oct-2015 12:22:17 UTC] PHP Stack trace:
+[29-Oct-2015 12:22:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:22:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 28
+[29-Oct-2015 12:22:32 UTC] PHP Stack trace:
+[29-Oct-2015 12:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:23:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 28
+[29-Oct-2015 12:23:03 UTC] PHP Stack trace:
+[29-Oct-2015 12:23:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:23:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 30
+[29-Oct-2015 12:23:38 UTC] PHP Stack trace:
+[29-Oct-2015 12:23:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:23:53 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 30
+[29-Oct-2015 12:23:53 UTC] PHP Stack trace:
+[29-Oct-2015 12:23:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:25:54 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 24
+[29-Oct-2015 12:25:54 UTC] PHP Stack trace:
+[29-Oct-2015 12:25:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:26:07 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 24
+[29-Oct-2015 12:26:07 UTC] PHP Stack trace:
+[29-Oct-2015 12:26:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:27:08 UTC] PHP Parse error:  syntax error, unexpected '/' in /home/ubuntu/workspace/SQ/score.php on line 5
+[29-Oct-2015 12:27:22 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 24
+[29-Oct-2015 12:27:22 UTC] PHP Stack trace:
+[29-Oct-2015 12:27:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:30:55 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 15
+[29-Oct-2015 12:30:55 UTC] PHP Stack trace:
+[29-Oct-2015 12:30:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:34:27 UTC] PHP Parse error:  syntax error, unexpected '?' in /home/ubuntu/workspace/SQ/score.php on line 13
+[29-Oct-2015 12:34:35 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 15
+[29-Oct-2015 12:34:35 UTC] PHP Stack trace:
+[29-Oct-2015 12:34:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:34:52 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/score.php on line 15
+[29-Oct-2015 12:34:52 UTC] PHP Stack trace:
+[29-Oct-2015 12:34:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 12:43:28 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/JQ/view.php on line 37
+[29-Oct-2015 12:43:28 UTC] PHP Stack trace:
+[29-Oct-2015 12:43:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[29-Oct-2015 12:43:28 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/JQ/view.php on line 37
+[29-Oct-2015 12:43:28 UTC] PHP Stack trace:
+[29-Oct-2015 12:43:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/view.php:0
+[29-Oct-2015 15:50:11 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 12
+[29-Oct-2015 15:50:11 UTC] PHP Stack trace:
+[29-Oct-2015 15:50:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 15:51:16 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 12
+[29-Oct-2015 15:51:16 UTC] PHP Stack trace:
+[29-Oct-2015 15:51:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 15:53:59 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 15:53:59 UTC] PHP Stack trace:
+[29-Oct-2015 15:53:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 15:54:04 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 15:54:04 UTC] PHP Stack trace:
+[29-Oct-2015 15:54:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 15:54:32 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 15:54:32 UTC] PHP Stack trace:
+[29-Oct-2015 15:54:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 15:54:49 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 15:54:49 UTC] PHP Stack trace:
+[29-Oct-2015 15:54:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:00:04 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:00:04 UTC] PHP Stack trace:
+[29-Oct-2015 16:00:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:00:18 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:00:18 UTC] PHP Stack trace:
+[29-Oct-2015 16:00:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:06:41 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 14
+[29-Oct-2015 16:06:41 UTC] PHP Stack trace:
+[29-Oct-2015 16:06:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:07:30 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:07:30 UTC] PHP Stack trace:
+[29-Oct-2015 16:07:30 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:08:07 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 14
+[29-Oct-2015 16:08:07 UTC] PHP Stack trace:
+[29-Oct-2015 16:08:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:13:01 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 14
+[29-Oct-2015 16:13:01 UTC] PHP Stack trace:
+[29-Oct-2015 16:13:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:13:21 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 14
+[29-Oct-2015 16:13:21 UTC] PHP Stack trace:
+[29-Oct-2015 16:13:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:15:43 UTC] PHP Fatal error:  Call to a member function execute() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 14
+[29-Oct-2015 16:15:43 UTC] PHP Stack trace:
+[29-Oct-2015 16:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:18:21 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:18:21 UTC] PHP Stack trace:
+[29-Oct-2015 16:18:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:18:52 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 15
+[29-Oct-2015 16:18:52 UTC] PHP Stack trace:
+[29-Oct-2015 16:18:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:19:03 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 15
+[29-Oct-2015 16:19:03 UTC] PHP Stack trace:
+[29-Oct-2015 16:19:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:19:24 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 15
+[29-Oct-2015 16:19:24 UTC] PHP Stack trace:
+[29-Oct-2015 16:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:19:51 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 16
+[29-Oct-2015 16:19:51 UTC] PHP Stack trace:
+[29-Oct-2015 16:19:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:19:53 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 16
+[29-Oct-2015 16:19:53 UTC] PHP Stack trace:
+[29-Oct-2015 16:19:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:20:03 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 16
+[29-Oct-2015 16:20:03 UTC] PHP Stack trace:
+[29-Oct-2015 16:20:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:20:31 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 15
+[29-Oct-2015 16:20:31 UTC] PHP Stack trace:
+[29-Oct-2015 16:20:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:20:43 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 16
+[29-Oct-2015 16:20:43 UTC] PHP Stack trace:
+[29-Oct-2015 16:20:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:20:57 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 16
+[29-Oct-2015 16:20:57 UTC] PHP Stack trace:
+[29-Oct-2015 16:20:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:23:05 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:23:05 UTC] PHP Stack trace:
+[29-Oct-2015 16:23:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:24:46 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:24:46 UTC] PHP Stack trace:
+[29-Oct-2015 16:24:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:30:05 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:30:05 UTC] PHP Stack trace:
+[29-Oct-2015 16:30:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:31:45 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:31:45 UTC] PHP Stack trace:
+[29-Oct-2015 16:31:45 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:32:07 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:32:07 UTC] PHP Stack trace:
+[29-Oct-2015 16:32:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:33:00 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:33:00 UTC] PHP Stack trace:
+[29-Oct-2015 16:33:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:34:15 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:34:15 UTC] PHP Stack trace:
+[29-Oct-2015 16:34:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:35:23 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:35:23 UTC] PHP Stack trace:
+[29-Oct-2015 16:35:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:42:43 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 12
+[29-Oct-2015 16:42:43 UTC] PHP Stack trace:
+[29-Oct-2015 16:42:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:43:23 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:43:23 UTC] PHP Stack trace:
+[29-Oct-2015 16:43:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 16:56:23 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 16:56:23 UTC] PHP Stack trace:
+[29-Oct-2015 16:56:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 17:02:00 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 17:02:00 UTC] PHP Stack trace:
+[29-Oct-2015 17:02:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 17:03:00 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/thanks.php on line 13
+[29-Oct-2015 17:03:00 UTC] PHP Stack trace:
+[29-Oct-2015 17:03:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:32:46 UTC] PHP Warning:  next() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:32:46 UTC] PHP Stack trace:
+[29-Oct-2015 17:32:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:32:46 UTC] PHP   2. next() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, integer given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 17:41:18 UTC] PHP Warning:  current() expects parameter 1 to be array, string given in /home/ubuntu/workspace/SQ/score.php on line 26
+[29-Oct-2015 17:41:18 UTC] PHP Stack trace:
+[29-Oct-2015 17:41:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 17:41:18 UTC] PHP   2. current() /home/ubuntu/workspace/SQ/score.php:26
+[29-Oct-2015 18:03:14 UTC] PHP Parse error:  syntax error, unexpected '$indiv_record' (T_VARIABLE) in /home/ubuntu/workspace/SQ/score.php on line 28
+[29-Oct-2015 18:04:04 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/SQ/score.php on line 32
+[29-Oct-2015 18:05:04 UTC] PHP Parse error:  syntax error, unexpected 'else' (T_ELSE) in /home/ubuntu/workspace/SQ/score.php on line 30
+[29-Oct-2015 19:01:25 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 15
+[29-Oct-2015 19:01:25 UTC] PHP Stack trace:
+[29-Oct-2015 19:01:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:01:36 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 15
+[29-Oct-2015 19:01:36 UTC] PHP Stack trace:
+[29-Oct-2015 19:01:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:02:10 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:02:10 UTC] PHP Stack trace:
+[29-Oct-2015 19:02:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:02:13 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:02:13 UTC] PHP Stack trace:
+[29-Oct-2015 19:02:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:02:20 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:02:20 UTC] PHP Stack trace:
+[29-Oct-2015 19:02:20 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:02:54 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:02:54 UTC] PHP Stack trace:
+[29-Oct-2015 19:02:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:03:25 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:03:25 UTC] PHP Stack trace:
+[29-Oct-2015 19:03:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 19:03:27 UTC] PHP Fatal error:  Call to a member function bind_param() on a non-object in /home/ubuntu/workspace/SQ/getstatus.php on line 16
+[29-Oct-2015 19:03:27 UTC] PHP Stack trace:
+[29-Oct-2015 19:03:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/getstatus.php:0
+[29-Oct-2015 20:21:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 23
+[29-Oct-2015 20:21:18 UTC] PHP Stack trace:
+[29-Oct-2015 20:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 20:47:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 31
+[29-Oct-2015 20:47:51 UTC] PHP Stack trace:
+[29-Oct-2015 20:47:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 20:56:17 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 31
+[29-Oct-2015 20:56:17 UTC] PHP Stack trace:
+[29-Oct-2015 20:56:17 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 20:59:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 33
+[29-Oct-2015 20:59:57 UTC] PHP Stack trace:
+[29-Oct-2015 20:59:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 21:11:00 UTC] PHP Parse error:  syntax error, unexpected '$stmt' (T_VARIABLE) in /home/ubuntu/workspace/SQ/score.php on line 17
+[29-Oct-2015 21:50:35 UTC] PHP Warning:  mysqli_stmt::bind_param(): Invalid type or no types specified in /home/ubuntu/workspace/SQ/login.php on line 14
+[29-Oct-2015 21:50:35 UTC] PHP Stack trace:
+[29-Oct-2015 21:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/login.php:0
+[29-Oct-2015 21:50:35 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/SQ/login.php:14
+[29-Oct-2015 22:20:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 30
+[29-Oct-2015 22:20:33 UTC] PHP Stack trace:
+[29-Oct-2015 22:20:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 22:20:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 30
+[29-Oct-2015 22:20:47 UTC] PHP Stack trace:
+[29-Oct-2015 22:20:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 22:34:14 UTC] PHP Fatal error:  Call to undefined function xtrim() in /home/ubuntu/workspace/SQ/login.php on line 9
+[29-Oct-2015 22:34:14 UTC] PHP Stack trace:
+[29-Oct-2015 22:34:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/login.php:0
+[29-Oct-2015 23:03:36 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 34
+[29-Oct-2015 23:03:36 UTC] PHP Stack trace:
+[29-Oct-2015 23:03:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[29-Oct-2015 23:03:54 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/score.php on line 34
+[29-Oct-2015 23:03:54 UTC] PHP Stack trace:
+[29-Oct-2015 23:03:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/score.php:0
+[01-Nov-2015 10:07:07 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 10:07:07 UTC] PHP Stack trace:
+[01-Nov-2015 10:07:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:07:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 10:07:24 UTC] PHP Stack trace:
+[01-Nov-2015 10:07:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:07:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 11
+[01-Nov-2015 10:07:40 UTC] PHP Stack trace:
+[01-Nov-2015 10:07:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:07:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 11
+[01-Nov-2015 10:07:46 UTC] PHP Stack trace:
+[01-Nov-2015 10:07:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:16:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 11
+[01-Nov-2015 10:16:40 UTC] PHP Stack trace:
+[01-Nov-2015 10:16:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:17:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:17:28 UTC] PHP Stack trace:
+[01-Nov-2015 10:17:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:17:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:17:43 UTC] PHP Stack trace:
+[01-Nov-2015 10:17:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:18:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:18:01 UTC] PHP Stack trace:
+[01-Nov-2015 10:18:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:18 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:25 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:27 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:27 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:31 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:31 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:31 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:44 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:46 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:46 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:21:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:21:47 UTC] PHP Stack trace:
+[01-Nov-2015 10:21:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:22:01 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:22:01 UTC] PHP Stack trace:
+[01-Nov-2015 10:22:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:22:32 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 12
+[01-Nov-2015 10:22:32 UTC] PHP Stack trace:
+[01-Nov-2015 10:22:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 10:23:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 10:23:11 UTC] PHP Stack trace:
+[01-Nov-2015 10:23:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 11:13:46 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 11:13:46 UTC] PHP Stack trace:
+[01-Nov-2015 11:13:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 12:18:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 12:18:28 UTC] PHP Stack trace:
+[01-Nov-2015 12:18:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 17:47:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 17:47:33 UTC] PHP Stack trace:
+[01-Nov-2015 17:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 17:47:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 17:47:37 UTC] PHP Stack trace:
+[01-Nov-2015 17:47:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 17:47:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 17:47:50 UTC] PHP Stack trace:
+[01-Nov-2015 17:47:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 17:49:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 17:49:02 UTC] PHP Stack trace:
+[01-Nov-2015 17:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[01-Nov-2015 18:01:25 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[01-Nov-2015 18:01:25 UTC] PHP Stack trace:
+[01-Nov-2015 18:01:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[02-Nov-2015 12:30:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/JQ/checkstate.php on line 10
+[02-Nov-2015 12:30:00 UTC] PHP Stack trace:
+[02-Nov-2015 12:30:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/checkstate.php:0
+[02-Nov-2015 12:30:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/JQ/checkstate.php on line 10
+[02-Nov-2015 12:30:04 UTC] PHP Stack trace:
+[02-Nov-2015 12:30:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/JQ/checkstate.php:0
+[03-Nov-2015 19:18:25 UTC] PHP Warning:  mysqli_stmt::bind_param(): Undefined fieldtype f (parameter 2) in /home/ubuntu/workspace/SQ/thanks.php on line 31
+[03-Nov-2015 19:18:25 UTC] PHP Stack trace:
+[03-Nov-2015 19:18:25 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/thanks.php:0
+[03-Nov-2015 19:18:25 UTC] PHP   2. mysqli_stmt->bind_param() /home/ubuntu/workspace/SQ/thanks.php:31
+[04-Nov-2015 10:29:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[04-Nov-2015 10:29:40 UTC] PHP Stack trace:
+[04-Nov-2015 10:29:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[04-Nov-2015 11:15:43 UTC] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'bharatkashyap'@'localhost' (using password: NO) in /home/ubuntu/workspace/SQ/database.php on line 9
+[04-Nov-2015 11:15:43 UTC] PHP Stack trace:
+[04-Nov-2015 11:15:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/view.php:0
+[04-Nov-2015 11:15:43 UTC] PHP   2. include() /home/ubuntu/workspace/SQ/view.php:3
+[04-Nov-2015 11:15:43 UTC] PHP   3. mysqli->mysqli() /home/ubuntu/workspace/SQ/database.php:9
+[06-Nov-2015 13:06:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:06:41 UTC] PHP Stack trace:
+[06-Nov-2015 13:06:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:06:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 19
+[06-Nov-2015 13:06:58 UTC] PHP Stack trace:
+[06-Nov-2015 13:06:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 13:06:58 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 13:21:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 19
+[06-Nov-2015 13:21:43 UTC] PHP Stack trace:
+[06-Nov-2015 13:21:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 13:21:43 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 13:21:47 UTC] PHP Parse error:  syntax error, unexpected '$complete_url' (T_VARIABLE) in /home/ubuntu/workspace/SQ/score.php on line 10
+[06-Nov-2015 13:23:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:23:23 UTC] PHP Stack trace:
+[06-Nov-2015 13:23:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:32:55 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:32:55 UTC] PHP Stack trace:
+[06-Nov-2015 13:32:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:33:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:33:04 UTC] PHP Stack trace:
+[06-Nov-2015 13:33:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:47:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:47:33 UTC] PHP Stack trace:
+[06-Nov-2015 13:47:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:50:33 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:50:33 UTC] PHP Stack trace:
+[06-Nov-2015 13:50:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:50:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:50:35 UTC] PHP Stack trace:
+[06-Nov-2015 13:50:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:50:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:50:38 UTC] PHP Stack trace:
+[06-Nov-2015 13:50:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:50:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:50:43 UTC] PHP Stack trace:
+[06-Nov-2015 13:50:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:53:23 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 13:53:23 UTC] PHP Stack trace:
+[06-Nov-2015 13:53:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 13:54:48 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 24
+[06-Nov-2015 13:54:48 UTC] PHP Stack trace:
+[06-Nov-2015 13:54:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 13:54:48 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:43
+[06-Nov-2015 13:54:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 24
+[06-Nov-2015 13:54:58 UTC] PHP Stack trace:
+[06-Nov-2015 13:54:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 13:54:58 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:43
+[06-Nov-2015 14:00:05 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 14:00:05 UTC] PHP Stack trace:
+[06-Nov-2015 14:00:05 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 14:06:51 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 19
+[06-Nov-2015 14:06:51 UTC] PHP Stack trace:
+[06-Nov-2015 14:06:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 14:06:51 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 14:07:34 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 14:07:34 UTC] PHP Stack trace:
+[06-Nov-2015 14:07:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 14:07:34 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:37
+[06-Nov-2015 14:07:50 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 14:07:50 UTC] PHP Stack trace:
+[06-Nov-2015 14:07:50 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 14:18:39 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 14:18:39 UTC] PHP Stack trace:
+[06-Nov-2015 14:18:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 14:36:35 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/ubuntu/workspace/SQ/login.php on line 39
+[06-Nov-2015 15:08:36 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:08:36 UTC] PHP Stack trace:
+[06-Nov-2015 15:08:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:08:36 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:37
+[06-Nov-2015 15:08:48 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 15:08:48 UTC] PHP Stack trace:
+[06-Nov-2015 15:08:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 15:11:15 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:11:15 UTC] PHP Stack trace:
+[06-Nov-2015 15:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:11:15 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:11:33 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:11:33 UTC] PHP Stack trace:
+[06-Nov-2015 15:11:33 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:11:33 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:11:53 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:11:53 UTC] PHP Stack trace:
+[06-Nov-2015 15:11:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:11:53 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:11:58 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:11:58 UTC] PHP Stack trace:
+[06-Nov-2015 15:11:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:11:58 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:12:38 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 18
+[06-Nov-2015 15:12:38 UTC] PHP Stack trace:
+[06-Nov-2015 15:12:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:12:38 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:37
+[06-Nov-2015 15:17:04 UTC] PHP Fatal error:  Call to undefined function result() in /home/ubuntu/workspace/SQ/build.php on line 20
+[06-Nov-2015 15:17:04 UTC] PHP Stack trace:
+[06-Nov-2015 15:17:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:17:04 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:17:16 UTC] PHP Fatal error:  Call to a member function fetch_array() on a non-object in /home/ubuntu/workspace/SQ/build.php on line 22
+[06-Nov-2015 15:17:16 UTC] PHP Stack trace:
+[06-Nov-2015 15:17:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:17:16 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:38
+[06-Nov-2015 15:32:37 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/SQ/build.php on line 20
+[06-Nov-2015 15:32:37 UTC] PHP Stack trace:
+[06-Nov-2015 15:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:32:37 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:40
+[06-Nov-2015 15:32:56 UTC] PHP Fatal error:  Cannot access empty property in /home/ubuntu/workspace/SQ/build.php on line 21
+[06-Nov-2015 15:32:56 UTC] PHP Stack trace:
+[06-Nov-2015 15:32:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/build.php:0
+[06-Nov-2015 15:32:56 UTC] PHP   2. create_grid() /home/ubuntu/workspace/SQ/build.php:41
+[06-Nov-2015 15:36:11 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/SQ/build.php on line 43
+[06-Nov-2015 16:21:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting ',' or ';' in /home/ubuntu/workspace/SQ/question.php on line 13
+[06-Nov-2015 18:32:38 UTC] PHP Warning:  include(footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/SQ/question.php on line 39
+[06-Nov-2015 18:32:38 UTC] PHP Stack trace:
+[06-Nov-2015 18:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/question.php:0
+[06-Nov-2015 18:32:38 UTC] PHP Warning:  include(): Failed opening 'footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/SQ/question.php on line 39
+[06-Nov-2015 18:32:38 UTC] PHP Stack trace:
+[06-Nov-2015 18:32:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/question.php:0
+[06-Nov-2015 19:06:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 19:06:38 UTC] PHP Stack trace:
+[06-Nov-2015 19:06:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[06-Nov-2015 19:06:47 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[06-Nov-2015 19:06:47 UTC] PHP Stack trace:
+[06-Nov-2015 19:06:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:36:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:36:11 UTC] PHP Stack trace:
+[07-Nov-2015 11:36:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:36:14 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:36:14 UTC] PHP Stack trace:
+[07-Nov-2015 11:36:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:36:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:36:16 UTC] PHP Stack trace:
+[07-Nov-2015 11:36:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:36:51 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:36:51 UTC] PHP Stack trace:
+[07-Nov-2015 11:36:51 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:38:13 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:38:13 UTC] PHP Stack trace:
+[07-Nov-2015 11:38:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
+[07-Nov-2015 11:39:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/SQ/checkstate.php on line 10
+[07-Nov-2015 11:39:22 UTC] PHP Stack trace:
+[07-Nov-2015 11:39:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/SQ/checkstate.php:0
