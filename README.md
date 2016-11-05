@@ -53,7 +53,10 @@ password : password
 
 * Admin accounts can only be added manually, via editing the sql file and providing an SHA1 hash as the password. Quick failsafe so no worries about participants being able to create admin accounts
 
-* There can be better ways to package this application so that it does not require lengthy, manual installation steps - turning it into a Node/Express/MongoDB application is one
+* The local result display page in its final form needs to be replicated online to publish results
+
+* Also, there can be better ways to package this application so that it does not require lengthy, manual installation steps - turning it into a Node/Express/MongoDB application is one
+
 
 ***
 ### About
