@@ -60,7 +60,7 @@ password : password
 
 ***
 ### About
-As is very evident, this was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets, provided by very generous sponsors) - and was my first attempt at building something for the web, hence :
+As is very evident, this was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets for all teams (provided by very generous sponsors) - and was my first attempt at building something for the web, hence :
 * It uses the LAMP stack
 * Switches from functional to object oriented PHP midway
 * Could have been done with a tenth of the effort I ended up putting in
