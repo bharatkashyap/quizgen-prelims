@@ -40,7 +40,7 @@ localhost:8080/prelims
 ### Features
 
 A walkthrough for (mostly) everything that can be accomplished through this application can be found
-[here](http://imgur.com/a/FFxdd).
+[here](http://imgur.com/a/FFxdd)
 
 **Note**
 
@@ -51,12 +51,12 @@ username : username
 password : password
 ```
 
-* Admin accounts can only be added manually, via editing the sql file and providing an SHA1 hash as the password. Quick failsafe so no worries about participants being able to create admin accounts.
+* Admin accounts can only be added manually, via editing the sql file and providing an SHA1 hash as the password. Quick failsafe so no worries about participants being able to create admin accounts
 
-* There can be better ways to package this application so that it does not require lengthy, manual installation steps - turning it into a Node/Express/MongoDB application is one - something I *might* look at in the future.
+* There can be better ways to package this application so that it does not require lengthy, manual installation steps - turning it into a Node/Express/MongoDB application is one
 
 ***
 ### About
-This was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets, provided by very generous sponsors) - and was my first attempt at building something for the web, hence it uses the LAMP stack, and switches from functional to object oriented PHP midway. That is also the reason it isn't as polished as it could have been; nevertheless, it is quite robust and ran successfully for a 60+ team event.
+This was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets, provided by very generous sponsors) - and was my first attempt at building something for the web, hence it uses the LAMP stack, and switches from functional to object oriented PHP midway. That is also the reason it isn't as polished as it could have been; nevertheless, it is quite robust and ran successfully for a 60+ team event
 
 If you're trying to replicate this for your event and run into problems, please do hit me up.
