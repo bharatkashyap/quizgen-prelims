@@ -51,7 +51,7 @@ username : username
 password : password
 ```
 
-* Admin accounts can only be added manually, via editing the sql file and providing an SHA1 hash as the password. Quick failsafe so no worries about participants being able to create admin accounts
+* Admin accounts **can only be added manually**, via editing the sql file and providing an SHA1 hash as the password.
 
 * The local result display page in its final form needs to be replicated online to publish results
 
@@ -60,6 +60,6 @@ password : password
 
 ***
 ### About
-This was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets, provided by very generous sponsors) - and was my first attempt at building something for the web, hence it uses the LAMP stack, and switches from functional to object oriented PHP midway. That is also the reason it isn't as polished as it could have been; nevertheless, it is quite robust and ran successfully for a 60+ team event
+This was first built for [Exun 2015](http://www.exunclan.com) (to conduct paperless preliminary rounds for the quiz using tablets, provided by very generous sponsors) - and was my first attempt at building something for the web, hence it uses the LAMP stack, and switches from functional to object oriented PHP midway. That is also the reason it isn't as polished as it could have been; nevertheless, it is quite robust and ran successfully for a 60+ team event.
 
-If you're trying to replicate this for your event and run into problems, please do hit me up.
+If you're trying to replicate this for your event and run into problems, please do [hit me up](mailto:bharatkashyap@outlook.com).
